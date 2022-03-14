@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/geom.dir/geom.c.o CMakeFiles/geom.dir/gd.c.o  -o geom 

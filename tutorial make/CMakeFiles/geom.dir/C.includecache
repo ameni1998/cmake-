@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ameni/Documents/tutorial make/gd.c
+stdio.h
+-
+
+/home/ameni/Documents/tutorial make/gd.h
+
+/home/ameni/Documents/tutorial make/geom.c
+stdio.h
+-
+math.h
+-
+gd.h
+/home/ameni/Documents/tutorial make/gd.h
+
